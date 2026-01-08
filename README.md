@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 買取専門店 コーポレートサイト
 
-## Getting Started
+買取店向けのコーポレートサイト・ショップサイトです。
 
-First, run the development server:
+## 技術スタック
+
+- **フレームワーク**: Next.js 16 (App Router)
+- **言語**: TypeScript
+- **スタイリング**: Tailwind CSS 4
+- **フォント**: Noto Sans JP (Google Fonts)
+
+## 機能
+
+- ✅ レスポンシブデザイン対応
+- ✅ SEO対策（メタデータ、構造化データ）
+- ✅ トップページ（ヒーロー、特徴、買取品目、買取方法）
+- ✅ 買取品目ページ
+- ✅ 店舗情報ページ
+- ✅ お問い合わせページ
+- ✅ モバイル対応ナビゲーション
+
+## 開発
+
+### インストール
+
+```bash
+npm install
+```
+
+### 開発サーバーの起動
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで [http://localhost:3000](http://localhost:3000) を開いてください。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ビルド
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+### 本番環境での起動
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ページ構成
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `/` - トップページ
+- `/items` - 買取品目一覧
+- `/shop` - 店舗情報
+- `/contact` - お問い合わせ
 
-## Deploy on Vercel
+## デザインコンセプト
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **ターゲット**: 40代以上
+- **雰囲気**: 伝わりやすく、品がありながら親しみやすい
+- **カラースキーム**: オレンジをアクセントカラーに使用
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 注意事項
+
+- 現在、ダミーデータを使用しています
+- 実際の運用時には、実際の店舗情報、画像、コンテンツに置き換えてください
+- お問い合わせフォームは現在プロトタイプです。実際の運用時にはバックエンドとの連携が必要です
