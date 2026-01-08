@@ -4,9 +4,9 @@
 
 ## 技術スタック
 
-- **フレームワーク**: Next.js 16 (App Router)
+- **フレームワーク**: Next.js 14 (App Router)
 - **言語**: TypeScript
-- **スタイリング**: Tailwind CSS 4
+- **スタイリング**: Tailwind CSS 3
 - **フォント**: Noto Sans JP (Google Fonts)
 
 ## 機能
